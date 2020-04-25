@@ -227,8 +227,6 @@ namespace AnimalHusbandryMod.tools
                     GroupId = "AHM.InterdimentionalFriend",
                     Title = meatCleaverTitle
                 };
-                meatCleaverLetter.LetterTexture = _customLetterBG;
-                meatCleaverLetter.TextColor = 4;
                 MailDao.SaveLetter(meatCleaverLetter);
             }
             
@@ -239,8 +237,6 @@ namespace AnimalHusbandryMod.tools
                     GroupId = "AHM.InterdimentionalFriend",
                     Title = DataLoader.i18n.Get("Tool.InseminationSyringe.Letter.Title")
                 };
-                inseminationSyringeLetter.LetterTexture = _customLetterBG;
-                inseminationSyringeLetter.TextColor = 4;
                 MailDao.SaveLetter(inseminationSyringeLetter);
             }
 
